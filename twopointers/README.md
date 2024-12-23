@@ -38,3 +38,7 @@ Return TRUE if three such integers exist in the array. Otherwise, return FALSE.
 # Remove Nth Node from End of List
 
 Given a singly linked list, remove the nth node from the end of the list and return its head.
+
+# Strobogrammatic Number
+
+Given a string num representing an integer, determine whether it is a strobogrammatic number. Return TRUE if the number is strobogrammatic or FALSE if it is not.
