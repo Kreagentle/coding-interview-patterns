@@ -42,3 +42,7 @@ Given a singly linked list, remove the nth node from the end of the list and ret
 # Strobogrammatic Number
 
 Given a string num representing an integer, determine whether it is a strobogrammatic number. Return TRUE if the number is strobogrammatic or FALSE if it is not.
+
+# Valid Palindrome II
+
+Write a function that takes a string as input and checks whether it can be a valid palindrome by removing at most one character from it.
