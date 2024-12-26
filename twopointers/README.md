@@ -46,3 +46,7 @@ Given a string num representing an integer, determine whether it is a strobogram
 # Valid Palindrome II
 
 Write a function that takes a string as input and checks whether it can be a valid palindrome by removing at most one character from it.
+
+# Minimum number of moves to make palindrome
+
+Given a string s, return the minimum number of moves required to transform s into a palindrome. In each move, you can swap any two adjacent characters in s.
