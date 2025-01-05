@@ -1,19 +1,19 @@
 package fastandslowpointers
 
-func SplitCircularLinkedList(head *LinkedListNode) []*LinkedListNode {
+func SplitCircularLinkedList(head *EduLinkedListNode) []*EduLinkedListNode {
   	slow, fast := head, head
   	for fast.next != head && fast.next.next != head {
   	  slow = slow.next
   	  fast = fast.next.next
   	}
   	result1, result2 := head, slow.next
-  	slow.next = result1
-  	fast = result2
-  	for fast.next != head {
-  	  fast = fast.next
+  	if fast.next == head {
+  	  fast.next = result2
+  	} else if fast.next.next == head {
+  	  fast.next.next = result2
   	}
-  	fast.next = result2
-    return []*LinkedListNode{result1,result2}
+  	slow.next = result1
+    return []*EduLinkedListNode{result1,result2}
 }
 
 type LinkedListNode struct {
