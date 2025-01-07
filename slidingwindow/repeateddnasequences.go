@@ -1,17 +1,17 @@
-package main
+package slidingwindow
 
 func findRepeatedSequences(dna string, k int) Set {
-  var left, right int
-  right += k
-  test := *NewSet()
+	var left, right int
+	right += k
+	test := *NewSet()
 	output := *NewSet()
-	for i := 0; i <= len(dna) - k; i++ {
-	  if test.Exists(dna[left:right]) {
-	    output.Add(dna[left:right])
-	  }
-	  test.Add(dna[left:right])
-	  left += 1
-	  right += 1
+	for i := 0; i <= len(dna)-k; i++ {
+		if test.Exists(dna[left:right]) {
+			output.Add(dna[left:right])
+		}
+		test.Add(dna[left:right])
+		left += 1
+		right += 1
 	}
 	return output
 }

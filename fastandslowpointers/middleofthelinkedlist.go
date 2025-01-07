@@ -1,6 +1,6 @@
 package fastandslowpointers
 
-func getMiddleNode(head *EduLinkedListNode) *EduLinkedListNode {
+func getMiddleNode(head *LinkedListNode) *LinkedListNode {
 	slow, fast := head, head
 
 	for fast != nil && fast.next != nil {
