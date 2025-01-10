@@ -1,18 +1,13 @@
 package linkedlist
 
-func reverse(head *LinkedListNode) *LinkedListNode {
-	var prev *LinkedListNode
+func reverse(head *ListNode) *ListNode {
+	var prev *ListNode
 	curr := head
 	for curr != nil {
-		temp := curr.next
-		curr.next = prev
+		temp := curr.Next
+		curr.Next = prev
 		prev = curr
 		curr = temp
 	}
 	return prev
-}
-
-type LinkedListNode struct {
-	data int
-	next *LinkedListNode
 }
