@@ -20,7 +20,23 @@ These are the only twin pairs in a linked list of size 4.
 The **twin sum** is defined as the sum of a node’s value and its twin’s value.
 Given the head of a linked list with an even number of nodes, return the **maximum twin sum** of the linked list.
 
+### Find the duplicate number
 
+Given an array of positive numbers, nums, such that the values lie in the range [1,n], inclusive, and that there are n+1 numbers in the array, find and return the duplicate number present in nums. There is only one repeated number in nums.
+
+### Middle of the linked list
+
+Given the head of a singly linked list, return the middle node of the linked list. If the number of nodes in the linked list is even, there will be two middle nodes, so return the second one.
+
+### Happy Number
+
+Start with the given number n.
+Repeat the following process:
+Replace n with the sum of the squares of its digits.
+Continue this process until one of two things happens:
+The number becomes 1, which indicates that the number is a happy number.
+The number enters a cycle, indicating the number is not a happy number (this means you will eventually revisit a previously seen number).
+Return TRUE if n is a happy number, otherwise return FALSE.
 
 
 
