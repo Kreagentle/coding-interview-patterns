@@ -18,3 +18,7 @@ Given the root of a binary search tree, and an integer k, return the kth smalles
 
 Given the root of a binary tree, return the vertical order traversal of its nodes' values. (i.e., from top to bottom, column by column).
 If two nodes are in the same row and column, the order should be from left to right.
+
+### Binary tree max path sum
+
+A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence at most once. Note that the path does not need to pass through the root.
