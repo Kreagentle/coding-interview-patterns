@@ -5,3 +5,7 @@ For any n positive number in base 10, return the complement of its binary repres
 ### Find the Difference
 
 Given two strings, str1 and str2, find the index of the extra character that is present in only one of the strings.
+
+### Single Number
+
+Given an array of integers, where every element appears twice except for one, find the element that occurs only once.
